@@ -126,7 +126,7 @@ Compiles and hot-reloads for development:
   Note that the development build is not optimized.
   To create a production build, run yarn build.
 
-# Steps to build it
+# Steps to build the frontend reactjs
 
 ## Prerequisites
 
@@ -137,6 +137,7 @@ You will need to have Node.js or Yarn installed in your machine.
 ## Steps
 
 - Create Auth0 `server` api model folder/ dir:
+- or run through JWT $ cd ./src/datasets-json
 
 ### mkdir ./server
 
