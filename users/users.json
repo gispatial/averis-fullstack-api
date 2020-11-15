@@ -1,0 +1,22 @@
+{
+   "user1" : {
+      "name" : "Demo",
+      "password" : "demodemo",
+      "email" : "demo@demo.com",
+      "id": 1
+   },
+
+   "user2" : {
+      "name" : "admin@admin.com",
+      "password" : "adminadmin",
+      "email" : "admin@admin.com",
+      "id": 2
+   },
+
+   "user3" : {
+      "name" : "staff",
+      "password" : "staff",
+      "email" : "staff@staff.com",
+      "id": 3
+   }
+}
