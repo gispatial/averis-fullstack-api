@@ -168,7 +168,7 @@ app.listen(port);
 - Execute cli to deploy as production or development:
 
 ```
-npm run serve or yarn serve
+npm run start 
 
 - App running at:
 - Local:   http://localhost:3000/ 
