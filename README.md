@@ -2,7 +2,7 @@
 <img src="https://github.com/gispatial/averis-fullstack-api/blob/main/averis-filters/public/sos.png" width="100%">
 Test assessment for Averis Sdn. Bhd. - Averis is a world-class provider of global business services, dedicated to meeting the technological, market and business challenges worldwide.
 
-## TDPM-API
+## AVERIS-UI-DESIGNS
 <table data-v-7b6b9330="">
 <thead data-v-7b6b9330="">
 <tr data-v-7b6b9330="">
@@ -117,12 +117,13 @@ Test assessment for Averis Sdn. Bhd. - Averis is a world-class provider of globa
  
 # Project setup
 
+CD FIRST TO FRONTEND REACTJS COMPONENTS > $ cd ./averis-filters
+
 $ npm install or $ yarn
 
 Compiles and hot-reloads for development:
 
-- npm run serve
-- yarn serve 
+- npm run start
 
   Note that the development build is not optimized.
   To create a production build, run yarn build.
@@ -135,9 +136,9 @@ You will need to have Node.js or Yarn installed in your machine.
 [[NodeJs](https://nodejs.org/en)] [[YarnPkg](https://yarnpkg.com/)]
 
 
-## Steps
+### mkdir ./server
 
-var express = require('express');
+```var express = require('express');
 var app = express();
 var jwt = require('express-jwt');
 var jwks = require('jwks-rsa');
@@ -163,13 +164,6 @@ app.get('/authorized', function (req, res) {
 });
 
 app.listen(port);
-
-### mkdir ./server
-
-```{
-  "domain": "https://dev-tripcarte-asia.us.auth0.com/api/v2/",
-  "clientId": "5ee225700bf777001acb0cf4"
-}
 ```
 - Execute cli to deploy as production or development:
 
@@ -177,7 +171,6 @@ app.listen(port);
 npm run serve or yarn serve
 
 - App running at:
-- Local:   http://localhost:8080/ 
-- Network: http://192.168.0.114:8080/
+- Local:   http://localhost:3000/ 
 ```
 
