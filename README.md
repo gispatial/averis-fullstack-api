@@ -174,3 +174,10 @@ npm run start
 - Local:   http://localhost:3000/ 
 ```
 
+```
+To logout and login back please use below credentials
+
+- Email Username: admin@admin.com
+- Password: adminadmin
+```
+
