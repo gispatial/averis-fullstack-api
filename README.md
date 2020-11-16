@@ -164,6 +164,9 @@ app.get('/authorized', function (req, res) {
 });
 
 app.listen(port);
+
+GRANT ID FOR ALL AUTH-O PERMISSIONS
+cgr_xPM8ZPzjmnd1WXs4
 ```
 - Execute cli to deploy as production or development:
 
