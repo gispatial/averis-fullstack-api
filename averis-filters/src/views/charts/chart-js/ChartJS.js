@@ -16,22 +16,14 @@ class ChartJS extends React.Component {
     return (
       <React.Fragment>
         <Breadcrumbs
-          breadCrumbTitle="React ChartJS 2"
-          breadCrumbParent="Charts"
+          breadCrumbTitle="ChartJS Tabular"
+          breadCrumbParent="Dashboard"
           breadCrumbActive="ChartJS"
         />
         <Row>
           <Col sm="12">
             <p>
-              React wrapper for Chart.js. Click{" "}
-              <a
-                href="https://github.com/jerairrest/react-chartjs-2"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                here
-              </a>{" "}
-              for github repo.
+              Tabular filters sampler 2 for Averis
             </p>
           </Col>
           <Col lg="6" sm="12">
@@ -41,25 +33,10 @@ class ChartJS extends React.Component {
             <BarChart />
           </Col>
           <Col lg="6" sm="12">
-            <HorizontalBarChart />
-          </Col>
-          <Col lg="6" sm="12">
             <PieChart />
           </Col>
           <Col lg="6" sm="12">
             <DoughnutChart />
-          </Col>
-          <Col lg="6" sm="12">
-            <RadarChart />
-          </Col>
-          <Col lg="6" sm="12">
-            <PolarChart />
-          </Col>
-          <Col lg="6" sm="12">
-            <BubbleChart />
-          </Col>
-          <Col sm="12">
-            <ScatterChart />
           </Col>
         </Row>
       </React.Fragment>

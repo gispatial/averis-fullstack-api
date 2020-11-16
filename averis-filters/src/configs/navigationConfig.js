@@ -23,16 +23,7 @@ const navigationConfig = [
     icon: <Icon.GitPullRequest size={20} />,
     type: "item",
     permissions: ["admin", "editor"],
-    navLink: "/todo/all"
-  },
-  {
-    id: "raiseSupport",
-    title: "SUBMIT",
-    icon: <Icon.PlayCircle size={20} />,
-    type: "external-link",
-    newTab: true,
-    permissions: ["admin", "editor"],
-    navLink: "https://pixinvent.ticksy.com/"
+    navLink: "/charts/chartjs"
   }
 ]
 
