@@ -13,6 +13,7 @@ import {
 } from "reactstrap"
 import classnames from "classnames"
 import loginImg from "../../../../assets/img/pages/login.png"
+import logoImg from "../../../../assets/img/pages/logo.png"
 import "../../../../assets/scss/pages/authentication.scss"
 import LoginAuth0 from "./LoginAuth0"
 import LoginFirebase from "./LoginFirebase"
@@ -51,11 +52,18 @@ class Login extends React.Component {
                 <Card className="rounded-0 mb-0 px-2 login-tabs-container">
                   <CardHeader className="pb-1">
                     <CardTitle>
-                      <h4 className="mb-0">Login</h4>
                     </CardTitle>
                   </CardHeader>
                   <p className="px-2 auth-title">
-                    Welcome back admin, please log to access.
+                    Welcome back <b>admin</b>, Log to access your...
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <div></div>
+                    <b>Averis Dashboard.</b>
+                    <div></div>
+                    <div></div>
+                    <img src={logoImg} alt="logoImg" />
                   </p>
                   <Nav tabs className="px-2">
                     <NavItem>
