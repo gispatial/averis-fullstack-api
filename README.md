@@ -172,10 +172,12 @@ app.listen(port);
 GRANT ID FOR ALL AUTH-O PERMISSIONS
 cgr_xPM8ZPzjmnd1WXs4
 ```
-- Execute cli to deploy as production or development:
+- Execute cli to deploy as staging production or localhost development:
 
 ```
-npm run start 
+$ npm run start 
+then for staging build production run cli below:
+$ npm run build
 
 - App running at:
 - Local:   http://localhost:3000/ 
