@@ -120,6 +120,7 @@ Test assessment for Averis Sdn. Bhd. - Averis is a world-class provider of globa
 
 CD FIRST TO FRONTEND REACTJS  > $ cd ./averis-filters
 ```
+CD $ cd ..
 for starting the express node > $ node server.js (backend)
 ```
 
