@@ -131,7 +131,7 @@ Compiles and hot-reloads for development:
 - npm run start
 
   Note that the development build is not optimized.
-  To create a production build, run yarn build.
+  To create a production build, run $ npm run build -or $ yarn build.
 
 # Steps to build it
 
@@ -177,8 +177,8 @@ cgr_xPM8ZPzjmnd1WXs4
 
 ```
 $ npm run start 
-then for staging build production run cli below:
-$ npm run build
+then for staging build production with serverless method using https://vercel.com/ run first cli below:
+$ npm run build or $ yarn build
 
 - App running at:
 - Local:   http://localhost:3000/ 
