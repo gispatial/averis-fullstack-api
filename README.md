@@ -186,5 +186,8 @@ To logout and login back please use below credentials
 
 - Email Username: admin@admin.com
 - Password: adminadmin
+- or
+- Email Username: demo@demo.com
+- Password: demodemo
 ```
 
