@@ -1,5 +1,5 @@
 # AVERIS-FULLSTACK-API
-PRODUCTION DEMO LINK https://averis-filters.vercel.app
+PRODUCTION DEMO LINK https://averis-dashboard.vercel.app/
 <img src="https://github.com/gispatial/averis-fullstack-api/blob/main/averis-filters/public/sos.png" width="100%">
 Test assessment for Averis Sdn. Bhd. - Averis is a world-class provider of global business services, dedicated to meeting the technological, market and business challenges worldwide.
 
@@ -120,6 +120,7 @@ Test assessment for Averis Sdn. Bhd. - Averis is a world-class provider of globa
 
 CD FIRST TO FRONTEND REACTJS  > $ cd ./averis-filters
 ```
+CD $ cd ..
 for starting the express node > $ node server.js (backend)
 ```
 
@@ -130,7 +131,7 @@ Compiles and hot-reloads for development:
 - npm run start
 
   Note that the development build is not optimized.
-  To create a production build, run yarn build.
+  To create a production build, run $ npm run build -or $ yarn build.
 
 # Steps to build it
 
@@ -172,10 +173,12 @@ app.listen(port);
 GRANT ID FOR ALL AUTH-O PERMISSIONS
 cgr_xPM8ZPzjmnd1WXs4
 ```
-- Execute cli to deploy as production or development:
+- Execute cli to deploy as staging production or localhost development:
 
 ```
-npm run start 
+$ npm run start 
+then for staging build production with serverless method using https://vercel.com/ run first cli below:
+$ npm run build or $ yarn build
 
 - App running at:
 - Local:   http://localhost:3000/ 
@@ -186,5 +189,8 @@ To logout and login back please use below credentials
 
 - Email Username: admin@admin.com
 - Password: adminadmin
+- or
+- Email Username: demo@demo.com
+- Password: demodemo
 ```
 
